@@ -53,9 +53,9 @@ def setup_database():
 
 vectorstore = setup_database()
 
-# 4. Set up the "Brain" (OpenAI gpt-oss-20b is free on OpenRouter)
+# 4. Set up the "Brain" (Using a free Google Gemma model on OpenRouter)
 llm = ChatOpenAI(
-    model="openai/gpt-oss-20b:free", 
+    model="openai/gpt-oss-20b", 
     temperature=0,
     api_key=os.environ.get("OPENROUTER_API_KEY"),
     base_url="https://openrouter.ai/api/v1"
