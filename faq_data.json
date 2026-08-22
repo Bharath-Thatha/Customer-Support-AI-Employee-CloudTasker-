@@ -1,0 +1,152 @@
+[
+  {
+    "category": "billing",
+    "question": "How do I upgrade my account from the Free tier to the Pro plan?",
+    "answer": "Go to Settings > Subscription. Click 'Change Plan', select 'Pro', and enter your payment details. You will be billed immediately on a prorated basis for the upgrade."
+  },
+  {
+    "category": "billing",
+    "question": "How do I make a payment for my billing invoice, or manage my payments?",
+    "answer": "To make a manual payment for a pending invoice, go to Settings > Billing > Make a Payment. To manage your automatic payments or update your credit card, navigate to Settings > Billing > Payment Methods."
+  },
+  {
+    "category": "billing",
+    "question": "Why was my payment or credit card declined?",
+    "answer": "Payments and cards are typically declined due to expiration, insufficient funds, or international transaction restrictions. Update your billing and payment method under Settings > Billing > Payment Methods."
+  },
+  {
+    "category": "billing",
+    "question": "How can I download past billing invoices, payment receipts, and tax receipts?",
+    "answer": "Navigate to Settings > Billing > Invoices. You can view, filter, and download PDF copies of all past billing and payment receipts."
+  },
+  {
+    "category": "billing",
+    "question": "How do I cancel my CloudTasker subscription?",
+    "answer": "To cancel your subscription, go to Settings > Billing and click 'Cancel Subscription'. Your account will remain active until the end of the current billing cycle."
+  },
+  {
+    "category": "billing",
+    "question": "Can I get a refund if I cancel my annual plan early?",
+    "answer": "We do not offer prorated refunds for annual plans that are canceled early. Your access will continue until the end of your prepaid year."
+  },
+  {
+    "category": "billing",
+    "question": "How do I change my billing currency?",
+    "answer": "Billing currency is set automatically based on your account region during sign-up and cannot be changed manually. Please contact support if you need to update your company's physical region."
+  },
+  {
+    "category": "billing",
+    "question": "What happens to my data if my payment fails and my account is downgraded?",
+    "answer": "If a payment fails after 3 retries, your account will be downgraded to the Free tier. Your data will be locked but not deleted for 30 days, allowing you time to update your payment method."
+  },
+  {
+    "category": "billing",
+    "question": "Do you offer discounts for non-profit organizations or students?",
+    "answer": "Yes, we offer a 50% discount for registered non-profits and educational institutions. Please email a copy of your tax-exempt documentation to our billing team to apply."
+  },
+  {
+    "category": "billing",
+    "question": "How do I add a secondary billing email for invoices?",
+    "answer": "You can add multiple recipients for billing receipts by going to Settings > Billing > Billing Contacts and adding additional email addresses."
+  },
+  {
+    "category": "technical",
+    "question": "How do I generate a new API key for my tech integration?",
+    "answer": "Go to Developer Portal > API Keys in your settings. Click 'Generate Key'. Make sure to copy the technical key immediately, as it is only displayed once for security."
+  },
+  {
+    "category": "technical",
+    "question": "Why are my technical webhooks returning a 500 error?",
+    "answer": "A 500 error indicates your receiving server crashed or timed out. CloudTasker's tech stack expects an HTTP 200/204 response within 3 seconds of webhook dispatch."
+  },
+  {
+    "category": "technical",
+    "question": "What is the tech rate limit for the REST API?",
+    "answer": "Standard technical accounts are limited to 60 requests per minute. Pro and Enterprise tech tiers support up to 600 API requests per minute."
+  },
+  {
+    "category": "technical",
+    "question": "Which programming languages are supported by the CloudTasker SDK?",
+    "answer": "We currently provide official SDKs for Python, Node.js, Ruby, and Go. Community-supported libraries are also available for Java and PHP."
+  },
+  {
+    "category": "technical",
+    "question": "How do I troubleshoot a 401 Unauthorized error on my API requests?",
+    "answer": "A 401 error usually means your API key is missing, expired, or invalid. Verify that you are passing the key correctly in the 'Authorization' header as a Bearer token."
+  },
+  {
+    "category": "technical",
+    "question": "Is there a sandbox or testing environment available?",
+    "answer": "Yes, all Pro and Enterprise accounts come with a dedicated Sandbox environment. You can toggle between Production and Sandbox modes in your Developer Portal."
+  },
+  {
+    "category": "technical",
+    "question": "How do I configure Single Sign-On (SSO) with Okta or Azure AD?",
+    "answer": "SSO configuration is available on the Enterprise plan. Navigate to Settings > Security > SSO configuration and input your Identity Provider (IdP) metadata XML file."
+  },
+  {
+    "category": "technical",
+    "question": "What IP addresses do CloudTasker webhooks come from?",
+    "answer": "Our webhooks are dispatched from a static pool of IP addresses. You can find the complete, up-to-date list of IPs to whitelist in the Developer Documentation under 'Security'."
+  },
+  {
+    "category": "technical",
+    "question": "How can I export all my workspace data at once?",
+    "answer": "Workspace administrators can export all data via the API, or by navigating to Settings > Data Management and clicking 'Export JSON'. The system will email you a download link when the file is ready."
+  },
+  {
+    "category": "technical",
+    "question": "Are CloudTasker's servers SOC2 and GDPR compliant?",
+    "answer": "Yes, our infrastructure is SOC2 Type II certified and fully GDPR compliant. You can download our security whitepaper and DPA (Data Processing Agreement) from the Security Center."
+  },
+  {
+    "category": "account_access",
+    "question": "How do I change, update, or reset my account password?",
+    "answer": "To reset a forgotten password, click 'Forgot Password' on the login screen and use the link sent to your email. To change or update a known password, navigate to Account Settings > Security and enter your new password."
+  },
+  {
+    "category": "account_access",
+    "question": "How do I enable Two-Factor Authentication (2FA)?",
+    "answer": "Navigate to Settings > Security > Two-Factor Authentication. Toggle it on, scan the QR code with an authenticator app like Google Authenticator, and enter the verification code."
+  },
+  {
+    "category": "account_access",
+    "question": "How do I invite team members to my workspace?",
+    "answer": "Go to Settings > Team > Members. Click 'Invite Member', enter their email address, select their permission role (Admin or Member), and click 'Send Invite'."
+  },
+  {
+    "category": "account_access",
+    "question": "What should I do if I lost the phone with my 2FA authenticator app?",
+    "answer": "If you lose your 2FA device, you can log in using one of the backup recovery codes provided when you first enabled 2FA. If you lost those codes, please contact our support team for manual identity verification."
+  },
+  {
+    "category": "account_access",
+    "question": "How do I change my primary account email address?",
+    "answer": "Go to Account Settings > Profile and click 'Edit' next to your email address. We will send a confirmation link to your new email, which you must click to finalize the change."
+  },
+  {
+    "category": "account_access",
+    "question": "How do I remove or deactivate a team member's access?",
+    "answer": "Workspace Admins can remove users by going to Settings > Team > Members, clicking the three dots next to the user's name, and selecting 'Deactivate User'."
+  },
+  {
+    "category": "account_access",
+    "question": "Can I have multiple workspaces under one email login?",
+    "answer": "Yes, your single user account can be invited to multiple workspaces. You can switch between them using the dropdown menu in the top-left corner of the dashboard."
+  },
+  {
+    "category": "account_access",
+    "question": "Why is my account locked and saying 'Too many login attempts'?",
+    "answer": "For security purposes, accounts are temporarily locked for 30 minutes after 5 failed login attempts. You can wait 30 minutes or use the 'Forgot Password' flow to unlock it immediately."
+  },
+  {
+    "category": "account_access",
+    "question": "What are the differences between Admin, Editor, and Viewer roles?",
+    "answer": "Admins have full access including billing and user management. Editors can create and modify all project files. Viewers can only read files and leave comments."
+  },
+  {
+    "category": "account_access",
+    "question": "How do I transfer ownership of my workspace to someone else?",
+    "answer": "To transfer ownership, the current Owner must go to Settings > Team, select an existing Admin, and click 'Promote to Owner'. The original owner will automatically be downgraded to an Admin."
+  }
+]

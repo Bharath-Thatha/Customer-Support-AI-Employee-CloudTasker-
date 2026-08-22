@@ -1,0 +1,22 @@
+# Environment Variables
+.env
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ChromaDB Data (Local Vector Store)
+chroma_db/
+
+# Streamlit specific (optional, but good practice)
+.streamlit/
+
+# OS generated files
+.DS_Store
+Thumbs.db
